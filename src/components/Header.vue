@@ -1,8 +1,8 @@
 <template>
-  <div id="app" class="grid justify-items-stretch">
+  <div id="header" class="grid justify-items-stretch h-22">
       <div class="flex">
       <div class="w-1/2">
-        <img class="w-14 ml-8" alt="company logo" src="../assets/images/logo.png">
+        <img class="w-12 ml-6" alt="company logo" src="../assets/images/logo.png">
       </div>
       <div class="flex justify-start items-center w-1/2 pr-10">
           <div class="w-1/7 mr-2 flex justify-center">
@@ -25,7 +25,7 @@
                       <img class="w-4" alt="e" src="../assets/images/e.png"/>
                     </div>
                     <div class="w-2/5 align-middle">
-                      <span class="inline-block align-middle text-xs tracking-tighter"><strong>TRUSTED</strong>SHOPS</span>
+                      <span class="inline-block align-middle text-xs tracking-tighter"><strong class="mr-0.5">TRUSTED</strong>SHOPS</span>
                     </div>
                   <!-- </div> -->
               </div>
