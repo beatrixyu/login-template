@@ -1,15 +1,9 @@
 <template>
   <div id="main">
-      <h1>ICH BIN NEU HIER</h1>
-      <h3>Jetzt Dein Kundenkonto erstellen.</h3>
-      <div>
-          <div><span><img src="" alt=""></span><p>Automatisch Punkte für Deinen Einkauf Sammeln</p></div>
-          <div><span><img src="" alt=""></span><p>Rabatte & Gratisprodukte erhalten</p></div>
-          <div><span><img src="" alt=""></span><p>Übersicht Deiner Bestellungen und Produkte bewerten</p></div>
-      </div>
+      
       <p>
          <router-link to="/register">Register</router-link>
-         <router-link to="/login">Go to Bar</router-link>
+         <router-link to="/login">Login</router-link>
       </p>
       <router-view></router-view>
     <Register/>
