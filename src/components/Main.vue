@@ -1,6 +1,5 @@
 <template>
   <div id="main">
-      
       <p>
          <router-link to="/register">Register</router-link>
          <router-link to="/login">Login</router-link>
@@ -12,8 +11,8 @@
 </template>
 
 <script>
-import Register from './Login.vue'
-import Login from './Register.vue'
+import Register from './Register.vue'
+import Login from './Login.vue'
 
 
 export default {
